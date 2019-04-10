@@ -1,3 +1,3 @@
 FROM flogoengine:2.5
-ADD flogo.json /flogo/app/flogo.json
-
+ADD flogo.json flogo.json
+EXPOSE 9233

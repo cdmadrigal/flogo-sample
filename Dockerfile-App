@@ -1,0 +1,3 @@
+FROM flogoengine:2.5
+ADD flogo.json /flogo/app/flogo.json
+

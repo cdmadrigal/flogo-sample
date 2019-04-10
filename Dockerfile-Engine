@@ -1,0 +1,4 @@
+FROM alpine:3.7
+WORKDIR /flogo/app
+ADD engine-linux-amd64 flogoengine
+ENTRYPOINT ["/flogo/app/flogoengine"]

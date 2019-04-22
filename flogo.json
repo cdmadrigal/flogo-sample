@@ -29,7 +29,7 @@
                                     {
                                         "mapTo": "$INPUT['message']",
                                         "type": "expression",
-                                        "value": "string.concat(\"ISBN: \", $flow.isbn)"
+                                        "value": "string.concat(\"ISBN is: \", $flow.isbn)"
                                     }
                                 ]
                             }
